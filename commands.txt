@@ -1,0 +1,22 @@
+django-admin startproject myproject - Створення нового проекту Django.
+
+python manage.py startapp myapp - Створення нового додатку в проекті.
+
+python manage.py makemigrations - Створення файлів міграцій на основі змін у моделях.
+
+python manage.py migrate - Застосування міграцій до бази даних.
+
+python manage.py runserver - Запуск сервера розробки Django.
+
+docker-compose run --rm app sh -c "python manage.py startapp core"
+docker-compose run --rm app sh -c "python manage.py test"
+
+python manage.py createsuperuser - Створення суперкористувача для адміністративної панелі.
+
+python manage.py test - Запуск тестів проекту.
+python manage.py check - Перевірка конфігурації проекту на наявність помилок.
+python manage.py collectstatic - Збирання всіх статичних файлів в єдину директорію.
+python manage.py flush - Виправлення бази даних (видалення всіх даних).
+python manage.py clear_cache - Оновлення кешу проекту.
+python manage.py help - Перегляд доступних команд Django.
+
