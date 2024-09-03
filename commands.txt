@@ -43,3 +43,4 @@ coverage xml
 
 # Перегляд детальних результатів для кожного рядка коду
 coverage annotate
+pip install -r requirements.txt
